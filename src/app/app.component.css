@@ -1,0 +1,25 @@
+.center {
+  margin: 25px 0;
+  min-width: 400px;
+  min-height: 200px;
+  vertical-align: middle;
+  text-align: center;
+  table-layout: fixed;
+  top:30%;
+  left: 40%;
+  position: fixed;
+}
+
+.center tr td{
+  background-color: #009879;
+  color:white;
+  font-weight: bold;
+  width: 33.33%;
+  height: 33.33%;
+  padding: 1% 1%;
+}
+
+
+.center tr td:hover{
+  background-color: darkgoldenrod;
+}
